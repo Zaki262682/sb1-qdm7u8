@@ -1,0 +1,61 @@
+/* Light Theme (default) */
+.theme-light {
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent: #2563eb;
+}
+
+/* Dark Theme */
+.theme-dark {
+  --bg-primary: #1f2937;
+  --bg-secondary: #111827;
+  --text-primary: #f9fafb;
+  --text-secondary: #d1d5db;
+  --accent: #3b82f6;
+}
+
+/* Blue Theme */
+.theme-blue {
+  --bg-primary: #eff6ff;
+  --bg-secondary: #ffffff;
+  --text-primary: #1e3a8a;
+  --text-secondary: #3b82f6;
+  --accent: #2563eb;
+}
+
+/* Green Theme */
+.theme-green {
+  --bg-primary: #f0fdf4;
+  --bg-secondary: #ffffff;
+  --text-primary: #166534;
+  --text-secondary: #22c55e;
+  --accent: #16a34a;
+}
+
+/* Apply theme variables */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.bg-theme-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.text-theme-secondary {
+  color: var(--text-secondary);
+}
+
+.accent-theme {
+  color: var(--accent);
+}
+
+.bg-accent-theme {
+  background-color: var(--accent);
+}
+
+.border-accent-theme {
+  border-color: var(--accent);
+}
